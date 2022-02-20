@@ -1,0 +1,255 @@
+.header {
+   font-family: Arial, Helvetica, sans-serif;
+   height: 865px;
+   overflow: hidden;
+   background-color: #42a8f6;
+}
+.section-container {
+   margin: 0 auto;
+   max-width: 1111px;
+}
+.main-navigation {
+   display: flex;
+   border-bottom: 2px solid #ffffff50;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.main-navigation__logo {
+   padding: 20px 150px 20px 0;
+   display: inline;
+}
+
+.main-navigation__nav-list {
+   display: inline-block;
+   text-transform: uppercase;
+   text-align: right;
+   padding-top: 20px;
+}
+.nav-list__item {
+   display: inline;
+}
+.nav-list__item > a {
+   color: #ffff;
+   margin: 10px;
+   font-size: 13px;
+   text-decoration: none;
+   padding: 5px;
+}
+
+.item-button {
+   text-transform: uppercase;
+   background: #237cc083;
+   color: #ffff;
+   margin: 10px;
+   padding: 10px 20px;
+   font-size: 13px;
+   text-decoration: none;
+   border-radius: 5px;
+}
+
+.header-container {
+   justify-content: space-between;
+   display: flex;
+}
+.header-container__info {
+   align-self: center;
+   text-align: left;
+   color: #ffff;
+}
+.info__title {
+   text-transform: uppercase;
+   font-size: 32px;
+}
+.info__text {
+   line-height: 40px;
+   padding: 30px 0;
+   display: block;
+   font-size: 20px;
+   max-width: 386px;
+}
+
+.info__button-google img {
+   top: 16px;
+   left: 22px;
+   position: absolute;
+   width: 30px;
+   height: 32px;
+}
+
+.info__button-google:hover,
+.info__button-learn:hover {
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.info__button-google,
+.info__button-learn {
+   font-size: 16px;
+   position: relative;
+   background-color: #ffff;
+   border-radius: 10px;
+   padding: 20px 60px;
+}
+
+.info__button-google {
+   margin-right: 15px;
+}
+.info__button-learn {
+   color: #ffff;
+   background: #237cc083;
+}
+.header__image {
+   position: relative;
+   top: 100px;
+}
+
+.sevices-block__header {
+   font: 400 18px/24px "Roboto Slab", Arial, serif;
+   text-align: center;
+   display: block;
+   margin-top: 70px;
+   color: #7c7c7c;
+   font-size: 15px;
+}
+
+.sevices-block__header--with-padding {
+   padding-top: 70px;
+}
+
+.sevices-block__offers {
+   display: flex;
+   justify-content: space-between;
+   font-family: Arial, Helvetica, sans-serif;
+   overflow: hidden;
+   background-color: #ffff;
+   margin-top: 90px;
+}
+
+.title-style {
+   color: #494949;
+   display: block;
+   font-size: 24px;
+}
+
+.sevices-block__line-bottom {
+   width: 30px;
+   border-bottom: 2px solid #2eb0ec;
+   margin-top: 10px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 90px;
+}
+
+.sevices-list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.sevices-list__item {
+   position: relative;
+   padding-left: 58px;
+   width: 33%;
+}
+
+.icon {
+   position: absolute;
+   left: 0;
+}
+
+.sevices-block__offers-icon {
+   text-align: center;
+}
+
+.sevices-block__offers-text-heading {
+   margin: 30px 0;
+   color: #494949;
+   font-weight: bold;
+}
+
+.container-img {
+   width: 100px;
+   height: 100px;
+   display: inline-block;
+}
+
+.sevices-block__offers-text {
+   display: block;
+   line-height: 25px;
+   max-width: 260px;
+   color: #7c7c7c;
+   font-size: 13px;
+}
+
+.sevices-list__item-header {
+   color: #494949;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+.sevices-list__item-text {
+   display: block;
+   color: rgb(124, 124, 124);
+   font-size: 14px;
+   line-height: 1.5;
+   margin-bottom: 90px;
+}
+
+.block-content {
+   display: flex;
+   justify-content: space-between;
+}
+
+.block-content__list {
+   display: block;
+   margin: auto;
+   line-height: 2.5em;
+   color: rgb(124, 124, 124);
+}
+
+.block-content__list-item {
+   position: relative;
+}
+
+.block-content__list-item::before {
+   position: absolute;
+   content: "";
+   width: 17px;
+   height: 17px;
+   border-radius: 50%;
+   background-color: #66d4f4;
+   top: 10px;
+   left: -25px;
+   border: 3px solid #c8ebf5;
+}
+
+.block-price {
+   background-image: url(../img/pricing-bg.png);
+   background-position: bottom center;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+.block-price__card {
+}
+
+.card__column {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.card__column-price {
+   display: inline-block;
+   border: 2px solid black;
+}
+
+.footer {
+   height: 200px;
+}
+
+/* .list__feature1,
+.list__feature2,
+.list__feature3,
+.list__feature4 {
+   display: block;
+} */
